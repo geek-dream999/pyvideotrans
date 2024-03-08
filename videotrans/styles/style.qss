@@ -1,0 +1,56 @@
+QToolBar *{
+    margin:0;
+    padding:0;
+    border-image:none;
+}
+ QToolBar QToolButton {
+  background-color: #32414B;
+  height:30px;
+  margin-bottom:0px;
+  margin-top:5px;
+  margin-left:2px;
+  margin-right:0px;
+  text-align: left;
+}
+QToolBar QToolButton:hover {
+  border: 1px solid #148CD2;
+}
+QToolBar QToolButton:checked {
+  background-color: #19232D;
+  border: 1px solid #148CD2;
+}
+QToolBar QToolButton:checked:hover {
+border: 1px solid #339933;
+}
+QLabel{
+    color: #bbbbbb;
+}
+
+QLineEdit:hover,QComboBox:hover{
+    border-color: #148cd2;
+}
+ QLineEdit,QComboBox{
+    background-color: #161E26;
+    border-color: #32414B;
+}
+QLineEdit:disabled {
+    background-color: transparent;
+    border-color: transparent;
+}
+QComboBox:disabled{
+    background-color: transparent;
+    border-color: #273442;
+}
+QScrollArea QPushButton{
+    background-color: rgba(50, 65, 75, 0.5);
+    border-radius: 0;
+    opacity: 0.1;
+    text-align:left;
+    padding-left:5px;
+}
+QScrollArea QPushButton:hover{
+    background-color: #19232D;
+}
+QPlainTextEdit:read-only{
+    color:#999999;
+}
